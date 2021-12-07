@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
 .hero{
     background-image: url('/Hero\ Banner/cx-insight-YloghyfD7e8-unsplash.jpg');
 }
 body{
     margin: 0;
     padding: 0;
+    font-family: Poppins;
 }
 a{
     text-decoration: none;
@@ -30,7 +33,7 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     cursor: pointer;
 }
@@ -38,3 +41,5 @@ nav ul li:hover{
     border-bottom: 0.3em solid #6558f5;
     font-weight: bold;
 }
+nav ul .applyBtn:hover{
+    color: #6558f5;
