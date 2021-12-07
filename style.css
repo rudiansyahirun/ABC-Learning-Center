@@ -1,3 +1,18 @@
+.hero{
+    background-image: url('/Hero\ Banner/cx-insight-YloghyfD7e8-unsplash.jpg');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: inline;
+}
+nav img{
+    width: 240px;
+    height: 48px;
+    /*margin-left: -3px;*/
+}
 nav ul{
     list-style-type: none;
     text-align: right;
