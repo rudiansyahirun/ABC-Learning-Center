@@ -17,7 +17,7 @@ a:visited{
 nav{
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid #788895;
+    border-bottom: 3px solid #788895;
 }
 #navLogo{
     margin-right: auto;
@@ -41,5 +41,9 @@ nav ul li:hover{
     border-bottom: 0.3em solid #6558f5;
     font-weight: bold;
 }
+nav ul .applyBtn a{
+    border: ;
+}
 nav ul .applyBtn:hover{
     color: #6558f5;
+}
