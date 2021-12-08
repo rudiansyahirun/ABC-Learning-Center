@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
-
-.hero{
-    background-image: url('/Hero\ Banner/cx-insight-YloghyfD7e8-unsplash.jpg');
+header{
+    height: 100%;
 }
-body{
+.hero{
+    background-image: url('/Hero\ Banner/1.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html{
     margin: 0;
     padding: 0;
     font-family: Poppins;
+    height: 100%;
+    background-color: #242424c1;
 }
 a{
     text-decoration: none;
@@ -17,15 +25,19 @@ a:visited{
 nav{
     display: flex;
     justify-content: flex-end;
+    background-color: #d1d1d1c1;
     border-bottom: 3px solid #788895;
 }
 #navLogo{
     margin-right: auto;
-    background-color: #b2acfa;
+    background-color: #9d96a988;
 }
 nav img{
     width: 240px;
     height: 48px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
 }
 nav ul{
     list-style-type: none;
@@ -42,7 +54,10 @@ nav ul li:hover{
     font-weight: bold;
 }
 nav ul .applyBtn a{
-    border: ;
+    border: 0.2rem solid #6558f5;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    color: #6558f5;
 }
 nav ul .applyBtn:hover{
     color: #6558f5;
