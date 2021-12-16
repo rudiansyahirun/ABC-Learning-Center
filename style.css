@@ -105,3 +105,31 @@ nav ul .applyBtn:hover{
 .hero p{
     margin-left: 15%;
 }
+/* TABLE */
+.scheduleSec{
+    overflow-x: auto;
+    text-align: center;
+}
+table, th, td{
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    /* width: 100%; */
+    border: 1px solid #788895;
+}
+#scheduleTbl{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* FrontEnd table styling */
+tr.fe td:nth-child(6), tr.fe td:nth-child(7), tr.fe td:nth-child(8), tr.fe td:nth-child(9){
+    background-color: #f3c19d;
+}
+/* Java table styling */
+tr.jv td:nth-child(2), tr.jv td:nth-child(3), tr.jv td:nth-child(4), tr.jv td:nth-child(5){
+    background-color: #96c3ec;
+}
+/* .Net table styling */
+tr.nt td:nth-child(10), tr.nt td:nth-child(11), tr.nt td:nth-child(12), tr.nt td:nth-child(13){
+    background-color: #90bcb3;
+}
