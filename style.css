@@ -133,3 +133,10 @@ tr.jv td:nth-child(2), tr.jv td:nth-child(3), tr.jv td:nth-child(4), tr.jv td:nt
 tr.nt td:nth-child(10), tr.nt td:nth-child(11), tr.nt td:nth-child(12), tr.nt td:nth-child(13){
     background-color: #90bcb3;
 }
+/* Footer */
+footer a{
+    font-weight: bolder;
+}
+footer .site{
+    padding: 3rem 0;
+}
